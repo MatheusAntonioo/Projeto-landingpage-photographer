@@ -2,3 +2,30 @@
   margin: 0;
   padding: 0;
 }
+
+body{
+  max-width: 1000px;
+  text-align: center;
+}
+
+header{
+  background-color: #cc0af3;
+  color: #fff;
+  max-width: 450px;
+  align-items: center;
+
+}
+
+main button{
+  width: 400px;
+  height: 60px;
+  font-size: 25px;
+  background-color: #cc0af3;
+  border-color: #cc0af3;
+  border-radius: 60px;
+}
+main button:hover{
+  scale: 1.2;
+  background-color: #f6c0ff;
+  color: #000000;
+}
