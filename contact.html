@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+  <link rel="stylesheet" href="/style.css">
+  <title>Fotógrafo</title>
+</head>
+<body>
+  <!-- HEADER -->
+  <header id="home">
+    <nav>
+      <div class="navigation">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/portfolio.html">Portfólio</a></li>
+      </div>
+      <div id="logo" class="logo"> <!-- LOGO -->
+        <a href="/index.html"><i class="fa-solid fa-camera"></i></a>
+      </div>
+      <div class="navigation">
+        <li><a href="/about.html">Quem Somos</a></li>
+        <li><a href="/contact.html">Contato</a></li>
+      </div>
+
+      <!--mobile-->
+      <div class="mobile-menu-icon">
+        <div class="logo"> <!-- LOGO -->
+          <a href="/index.html"><i class="fa-solid fa-camera"></i></a>
+        </div>
+        <button class="icon-bar show" onclick="menuShow()"><i class="fa-solid fa-bars"></i></button>
+        <button class="icon-x" onclick="menuShow()"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+    </nav>
+
+    <div class="mobile-menu">
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/portfolio.html">Portfólio</a></li>
+        <li><a href="/about.html">Quem Somos</a></li>
+        <li><a href="/contact.html">Contato</a></li>
+      </ul>
+    </div>
+
+  </header>
+  
+  <script src="/script.js"></script>
+</body>
+</html>
