@@ -404,7 +404,7 @@ footer{
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-#album{
+.album{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -428,7 +428,7 @@ footer{
   transform: scale(1.05);
 }
 /*-------------------PORTFOLIO RESPONSIVO------------------*/
-@media(max-width: 950px){
+@media(max-width: 800px){
   .menu-img ul{
     display: grid;
     align-items: center;
