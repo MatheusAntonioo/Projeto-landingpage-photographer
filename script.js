@@ -10,6 +10,7 @@ setInterval(function(){
   }
 }, 3000);
 
+
 // MENU MOBILE
 function menuShow(){
   let menuMobile = document.querySelector('.mobile-menu');

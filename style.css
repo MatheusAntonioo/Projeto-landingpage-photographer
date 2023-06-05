@@ -166,7 +166,7 @@ main img{
   left: 0;
   right: 0;
   margin: auto;
-  cursor: pointer;
+  /* cursor: pointer; */
   transition: transform 0.4s ease;
 }
 .container{
