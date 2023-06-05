@@ -427,3 +427,19 @@ footer{
 .pictures:hover{
   transform: scale(1.05);
 }
+/*-------------------PORTFOLIO RESPONSIVO------------------*/
+@media(max-width: 950px){
+  .menu-img ul{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding-bottom: 20px;
+    gap: 0;
+  }
+  .menu-img li{
+    padding: 20px;
+  }
+  .menu-img a{
+    border-radius: 5px;
+  }
+}
