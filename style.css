@@ -140,7 +140,6 @@ nav{
 /*------------------- HOME -------------------*/
 main{
   width: 100%;
-  height: 100vh;
   padding-top: 150px;
   display: flex;
   align-items: center;
@@ -375,4 +374,56 @@ footer{
 .container-text p{
   padding-bottom: 130px;
   font-size: 18px;
+}
+
+/*--------------------- PORTFOLIO -------------------*/
+.menu-img{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.menu-img ul{
+  display: flex;
+  gap: 3rem;
+}
+.menu-img a{
+  color: #3d4c41;
+  font-size: 18px;
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.menu-img a:hover{
+  background-color: #3d4c41;
+  color: #e6e6e6;
+}
+.gallery{
+  background-color: #3d4c41;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+#album{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2vw;
+  padding: 1vh 3vw;
+}
+.pictures{
+  width: 300px;
+  height: auto;
+  border: 10px solid #e6e6e6;
+  box-shadow: 5px 5px 5px #0006;
+  flex-grow: 1;
+  transition: transform .3s linear;
+}
+.pictures img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.pictures:hover{
+  transform: scale(1.05);
 }
