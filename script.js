@@ -27,3 +27,13 @@ function menuShow(){
     iconX.classList.add('show');
   }
 }
+
+// BOTÃO SUBIR
+const btn = document.getElementById("btnTop");
+
+btn.addEventListener("click", function(){
+  window.scroll({
+    top: 0,
+    behavior: "smooth",
+  })
+})
