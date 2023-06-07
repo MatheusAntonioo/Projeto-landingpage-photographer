@@ -465,3 +465,70 @@ footer{
   }
 }
 
+/*------------------ CONTATO -------------------*/
+
+.main-contact{
+  display: grid;
+  place-items: center;
+  width: 600px;
+  padding: 1rem;
+}
+.main-contact form{
+  width: 100%;
+  max-width: 30rem;
+}
+.main-contact label,
+.main-contact input,
+.main-contact textarea,
+.main-contact button{
+  display: block;
+}
+.main-contact input,
+.main-contact textarea,
+.main-contact button{
+  width: 100%;
+  font: inherit;
+  padding: 1.25rem;
+  font-weight: 700;
+  font-size: 18px;
+}
+.main-contact input,
+.main-contact textarea{
+  margin-bottom: 1rem;
+  color: #1f1f1f;
+  background-color: #b0b0b0;
+  border: 0.125rem solid transparent;
+  border-radius: 1.125rem;
+  transition: border-color 0.3s,
+  box-shadow 0.3s;
+}
+.main-contact input:hover,
+.main-contact input:focus,
+.main-contact textarea:hover,
+.main-contact textarea:focus{
+  outline: none;
+  border-color: #999999;
+  box-shadow: 0 0 0 0.1125rem #3d4c41;
+}
+.main-contact label{
+  margin-bottom: 0.5rem;
+  color: #1f1f1f;
+  font-size: 18px;
+}
+.main-contact textarea{
+  min-height: 12.5rem;
+  resize: vertical;
+}
+.main-contact button{
+  border: none;
+  border-radius: 99px;
+  color: #e6e6e6;
+  background: #3d4c41;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.main-contact button:hover,
+.main-contact button:focus{
+  outline: none;
+  background: #2a352d;
+}

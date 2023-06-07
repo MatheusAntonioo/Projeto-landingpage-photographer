@@ -48,6 +48,31 @@
     </div>
   </header>
   
+  <main>
+    <section class="main-contact">
+      <form 
+        action="" 
+        method="POST"
+        data-form 
+      >
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" autocomplete="off" required >
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" autocomplete="email" required>
+
+        <!-- <label for="telefone">Telefone*</label>
+        <input type="tel" name="telefone" id="telefone" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx) xxxxx-xxxx" required > -->
+
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" required></textarea>
+
+        <button type="submit" data-button>Enviar</button>
+      </form>
+
+      
+    </section>
+  </main>
 
   <footer>
     <div class="footer">
