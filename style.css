@@ -535,3 +535,44 @@ footer{
   outline: none;
   background: #26332a;
 }
+
+/*--------------------- THANKS ------------------*/
+.thanks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #26332a;
+  width: 100%;
+  margin-bottom: 150px;
+}
+.thanks h1{
+  font-size: 50px;
+  padding-bottom: 2rem;
+}
+.thanks h2{
+  padding-bottom: 1.125rem;
+  font-size: 22px;
+}
+.thanks h3{
+  padding-bottom: 150px;
+  font-size: 18px;
+}
+.thanks a{
+  background-color: #3d4c41;
+  color: #e6e6e6;
+  padding: 20px;
+  border-radius: 40px;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  font-weight: bold
+}
+.thanks i{
+  padding-right: 10px;
+  font-size: 25px;
+}
+.thanks a:hover,
+.thanks a:focus{
+  background: #26332a;
+}
