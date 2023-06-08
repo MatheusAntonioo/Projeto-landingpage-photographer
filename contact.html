@@ -51,26 +51,35 @@
   <main>
     <section class="main-contact">
       <form 
-        action="https://api.staticforms.xyz/submit" 
-        method="post"
+        action="https://formsubmit.co/matheusmgk@gmail.com" 
+        method="POST"
       >
         <label>Nome</label>
-        <input type="text" name="nome" id="nome" autocomplete="off" placeholder="Digite seu nome" required >
+        <input type="text" name="nome" autocomplete="off" placeholder="Digite seu nome" required >
 
         <label>Email</label>
-        <input type="email" name="email" id="email" autocomplete="email" placeholder="Digite seu e-mail" required>
+        <input type="email" name="email" autocomplete="email" placeholder="Digite seu e-mail" required>
 
         <label>Telefone</label>
-        <input type="tel" name="telefone" id="telefone" autocomplete="tel" pattern="^\d{10, 11}$" placeholder="(xx) xxxxx-xxxx" required >
+        <input type="tel" name="telefone" autocomplete="tel" pattern="^\d{10, 11}$" placeholder="(xx) xxxxx-xxxx" required >
 
         <label>Mensagem</label>
-        <textarea name="mensagem" id="mensagem" placeholder="Descreva aqui o serviço que você deseja!" required></textarea>
+        <textarea name="mensagem" placeholder="Descreva aqui o serviço que você deseja!" required></textarea>
 
         <button type="submit" >Enviar</button>
 
-        <input type="hidden" name="redirectTo" value="https://photographer-demo.netlify.app//thanks.html" ><!-- Redireciona o cliente para outra pagina -->
+        <input type="hidden" name="_subject" value="Novo Cliente"> <!-- titulo do email -->
+
+        <input type="hidden" name="_next" value="https://photographer-demo.netlify.app//thanks.html">
+        <!-- Redireciona o cliente para outra pagina -->
 
         <input type="hidden" name="accessKey" value="3eff562a-e74f-4271-815a-d72bb5898306"> <!-- Adicionar chave de acesso 3eff562a-e74f-4271-815a-d72bb5898306 -->
+
+        <input type="text" name="honeypot" style="display: none;"> <!-- proteção span -->
+
+        <input type="hidden" name="_captcha" value="false">
+        <!-- desativa o captcha -->
+
       </form>
 
       
