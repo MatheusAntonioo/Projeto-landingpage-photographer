@@ -471,7 +471,10 @@ footer{
   display: grid;
   place-items: center;
   width: 600px;
-  padding: 1rem;
+  padding: 2rem;
+  margin-bottom: 150px;
+  border-radius: 1rem;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 .main-contact form{
   width: 100%;
@@ -530,5 +533,5 @@ footer{
 .main-contact button:hover,
 .main-contact button:focus{
   outline: none;
-  background: #2a352d;
+  background: #26332a;
 }
